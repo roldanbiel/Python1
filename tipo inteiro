@@ -6,7 +6,5 @@ Tipo numérico
 
 # Exemplos:
 num = 42
-print(type(num))
 
 print(float(num))
-
