@@ -1,2 +1,3 @@
-# Meus primeiros programas
-E dicas escritas
+# Primeiros programas
+Resumo Dir e Help -> Python
+Programa de Idade e Nome
