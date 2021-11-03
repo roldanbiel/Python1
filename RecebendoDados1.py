@@ -1,6 +1,6 @@
 
 """
-Recebendo dados do usuário.
+Recebendo dados do usuário. 
 
 input() -> Todo dado recebido via input é do tipo String
 
