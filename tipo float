@@ -9,7 +9,7 @@ OBS: Os separados de casas decimais na programação é o ponto e não a vírgul
 """
 
 # Errado ao ponto do Float, gera Tupla
-valor = 1,44
+valor = 1, 44
 print(type(valor))
 
 # Correto ao ponto Float
@@ -29,3 +29,6 @@ res = int(valor)
 print(res)
 print(type(res))
 
+# Podemos trabalhar com números complexos
+valor3 = 5j
+print(type(valor3))
