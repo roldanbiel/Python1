@@ -6,5 +6,4 @@ Tipo numérico
 
 # Exemplos:
 num = 42
-
 print(float(num))
