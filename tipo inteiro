@@ -1,0 +1,14 @@
+"""
+Tipo numérico
+"""
+
+# números inteiros (int)
+
+# Exemplos:
+num = 42
+
+num / 2
+
+num * 2
+
+num // 2
