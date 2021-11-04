@@ -1,0 +1,44 @@
+"""
+Estruturas Lógicas: and (e), or (ou), not (não), is (é)
+
+Operadores Unários
+    - not
+Operadores Binários
+    - and, or, is
+
+Para o 'and', ambos os valores precisam ser True.
+Para o 'or', um dos valores precisam ser True.
+Para o 'not', o valor do booleano é invertido, ou seja, se for True vira False, se for False vira True.
+Para o 'is', um valor é comparado com um segundo valor. (Ex: 1 is 2 = False).
+"""
+
+ativo = True
+logado = False
+
+# and
+if ativo and logado:
+    print('Bem-vindo usuário!')
+else:
+    print('Você precisar ativar sua conta. Por favor, cheque seu e-mail.')
+
+# or
+if ativo or logado:
+    print('Bem-vindo usuário!')
+else:
+    print('Você precisar ativar sua conta. Por favor, cheque seu e-mail.')
+
+# not
+if not ativo:
+    print('Você precisa ativar sua conta. Por favor, cheque seu e-mail.')
+else:
+    print('Bem-vindo, usuário!')
+
+# is (não Pythônico)
+if ativo is False:
+    print('Você precisa ativar sua conta. Por favor, cheque seu e-mail.')
+else:
+    print('Bem-vindo, usuário!')
+
+# ativo é Falso?
+print(ativo is False)
+
