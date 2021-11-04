@@ -1,0 +1,21 @@
+"""
+Estruturas condicionais
+if (Se), else (Senao), elif (else if)
+
+
+
+"""
+
+idade = 18
+
+if idade < 18:
+    print('Menor de idade')
+
+elif idade == 18:
+    print('Tem 18 anos')
+
+elif idade == 17:
+    print('Tenha paciência, falta apenas 1 ano para sua maior idade!')
+
+else:
+    print('Maior de idade')
