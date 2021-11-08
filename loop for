@@ -1,0 +1,80 @@
+"""
+Loop for
+
+Loop -> Estrutura de repetição
+For -> Uma dessas estruturas.
+
+Em C ou Java:
+
+for(int i = 0 < limitador; i++)
+    //exec do loop
+
+Em Python:
+
+for item in interavel:
+    //exec do loop
+
+
+Utilizamos loops para iterar sobre sequências ou sobre valores
+iteráveis.
+
+Exemplos iteráveis:
+- String
+    nome = 'Gabriel Roldan'
+- Lista
+    lista = [1, 2, 3, 4, 5]
+- Range
+    numeros = range(1, 10)
+
+range(valor_inicial, valor_final)
+
+OBS: O valor final não é inclusive.
+
+Ex: range(1, 10)  -> 1 a 9
+"""
+
+
+
+nome = 'Gabriel Roldan'
+lista = [1, 2, 3, 4, 5]
+numeros = range(1, 10)   # Temos que transformar em lista
+
+
+# Exemplo de for 1 (Iterando em uma String)
+for letra in nome:
+    print(letra)
+
+# Exemplo de for 2 (Iterando sobre uma Lista)
+for numero in lista:
+    print(numero)
+
+# Exemplo de for 3 (Iterando sobre um Range)
+for numero in range(1, 10):
+    print(numero)
+"""
+Enumerate:
+
+((0, 'G'), (1, 'a'), (2, 'b'), (3, 'r'), (4, 'i'), (5, 'e'), (6, 'l'))
+
+"""
+
+for indice, letra in enumerate(nome):
+    print(nome[indice])
+    print(letra)
+# OU #
+for _, letra in enumerate(nome):
+    print(nome[indice])
+    print(letra)
+
+for valor in enumerate(nome):
+    print(valor)
+
+qtd = int(input('Quantas vezes esse loop deve rodar? '))
+
+for n in range(1, qtd + 1):
+    print('Imprimindo', n)
+
+nome = 'Gabriel Roldan'
+for letra in nome:
+    print(letra)   #Pulando linhas
+    print(letra, end='')    # Mesma linha
